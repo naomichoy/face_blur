@@ -14,9 +14,10 @@ check if the following modules are installed. you need these modules to run the 
 * numpy
 * scipy
 * opencv
+* cmake (to install face_recognition)
 
 ```bash
-pip3 install numpy scipy opencv-python
+pip3 install numpy scipy opencv-python cmake
 ```
 
 you will also need to install this module I copied from ageitgey
