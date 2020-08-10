@@ -2,10 +2,18 @@
  
 This script modifies from https://github.com/ageitgey/face_recognition/blob/master/examples/ blur_faces_on_webcam.py and find_faces_in_picture_cnn.py to batch process photos in jpg/png format
 
-HI CHING
-download the zip file, unzip and have fun. (version 0.1) create a folder called "photos" and a folder called "processed" within this unzipped folder. put your photos in the photos folder.
+HI CHING download the zip file, unzip and have fun. 
 
-version 0.1 -- rough script without flexible user directory input and options. some coding skills i've yet to learn. maybe i should include a file of my environment setup too
+(version 0.1) 
+-- create a folder called "photos" and a folder called "processed" within this unzipped folder. 
+Put your photos in the photos folder. 
+
+-- rough script without flexible user directory input and options. some coding skills i've yet to learn. 
+maybe i should include a file of my environment setup too
+
+(verson 0.2 10 Aug 2020) 
+-- uploaded sample photos in corresponding "photos" and "processed" folders. 
+Delete them before you use the code and put your photos in the photos folder.
 
 ## DEPENDENCIES
 Python 3.3+ is need to run the script. Google how to install python 3 on your mac/windows and follow the steps.
