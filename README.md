@@ -4,16 +4,20 @@ This script modifies from https://github.com/ageitgey/face_recognition/blob/mast
 
 HI CHING download the zip file, unzip and have fun. 
 
+(verson 0.3 12 Nov 2020)
+-- metadata retaining required and added
+-- PLEASE IGNORE THE batch_process3.py file, it was coded to replace your original file
+
+(verson 0.2 10 Aug 2020) 
+-- uploaded sample photos in corresponding "photos" and "processed" folders. 
+Delete them before you use the code and put your photos in the photos folder.
+
 (version 0.1) 
 -- create a folder called "photos" and a folder called "processed" within this unzipped folder. 
 Put your photos in the photos folder. 
 
 -- rough script without flexible user directory input and options. some coding skills i've yet to learn. 
 maybe i should include a file of my environment setup too
-
-(verson 0.2 10 Aug 2020) 
--- uploaded sample photos in corresponding "photos" and "processed" folders. 
-Delete them before you use the code and put your photos in the photos folder.
 
 ## DEPENDENCIES
 Python 3.3+ is need to run the script. Google how to install python 3 on your mac/windows and follow the steps.
