@@ -5,7 +5,7 @@ This script modifies from https://github.com/ageitgey/face_recognition/blob/mast
 HI CHING download the zip file, unzip and have fun. 
 
 (verson 0.3 12 Nov 2020)
--- metadata retaining required and added
+-- metadata retaining required and added <br>
 -- PLEASE IGNORE THE batch_process3.py file, it was coded to replace your original file
 
 (verson 0.2 10 Aug 2020) 
