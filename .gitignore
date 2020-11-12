@@ -126,3 +126,5 @@ dmypy.json
 
 # Storage
 .DS_Store 
+/photos
+/processed

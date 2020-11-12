@@ -37,8 +37,8 @@ for filename in os.listdir(DIR_PATH):
 
 		pil_image = Image.fromarray(image)
 
-		# PROCESSED_FILE = "../processed/" + str(file_count) + ".jpg"
-		PROCESSED_FILE = PROCESSED_DIR + filename + "_blured_" + str(file_count) + ".jpg"
+		# PROCESSED_FILE = "../processed/" + str(file_count)
+		PROCESSED_FILE = PROCESSED_DIR + str(file_count) + "_blured_"  + filename
 		print("saving file " + PROCESSED_FILE)
 		pil_image.save(PROCESSED_FILE)
 
