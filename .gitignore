@@ -128,3 +128,4 @@ dmypy.json
 .DS_Store 
 /photos
 /processed
+*.jpg
