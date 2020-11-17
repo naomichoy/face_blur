@@ -129,7 +129,4 @@ dmypy.json
 /photos
 /processed
 *.jpg
-
-# old files
-batch_process2.py
-batch_process3.py
+error_log.txt

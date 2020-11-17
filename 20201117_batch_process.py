@@ -36,9 +36,6 @@ for filename in os.listdir(DIR_PATH):
 		# load exif data, without piexif lib
 		im = Image.open(photo_full_path)
 		exif = im.info['exif']
-		if exif is None: 
-			error_log.write(filename + " does not have exif data")
-
 		
 		image = face_recognition.load_image_file(photo_full_path) # Load the jpg file into a numpy array
 		face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=0, model="cnn")
@@ -60,4 +57,4 @@ for filename in os.listdir(DIR_PATH):
 	except Exception as e:
 		print (e)
 		# append error to file
-		error_log.write(str(e))
+		error_log.write(str(e) + " on " + filename + "\n")
