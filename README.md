@@ -5,9 +5,9 @@ This script modifies from https://github.com/ageitgey/face_recognition/blob/mast
 HI CHING download the zip file, unzip and have fun. 
 
 ## DEPENDENCIES
-Python 3.3+ is need to run the script. Google how to install python 3 on your mac/windows and follow the steps.
+Python 3.3+ is need to run the script. Google how to install python 3 on your mac/windows and follow the steps. (alternatively, install anaconda lmao)
 
-You will also need to install Visual Studio before proceeding
+You will also need to install Visual Studio before proceeding. (for compiling face_rcognition lib)
 
 check if the following modules are installed. you need these modules to run the script
 * numpy
