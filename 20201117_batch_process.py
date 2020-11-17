@@ -35,9 +35,8 @@ for filename in os.listdir(DIR_PATH):
 
 		# load exif data, without piexif lib
 		im = Image.open(photo_full_path)
-		if exif:  
-			exif = im.info['exif']
-		else: # to file
+		exif = im.info['exif']
+		if exif is None: 
 			error_log.write(filename + " does not have exif data")
 
 		
