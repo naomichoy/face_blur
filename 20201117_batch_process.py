@@ -61,4 +61,4 @@ for filename in os.listdir(DIR_PATH):
 	except Exception as e:
 		print (e)
 		# append error to file
-		error_log.write(e)
+		error_log.write(str(e))
