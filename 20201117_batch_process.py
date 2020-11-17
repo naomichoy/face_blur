@@ -58,3 +58,5 @@ for filename in os.listdir(DIR_PATH):
 		print (e)
 		# append error to file
 		error_log.write(str(e) + " on " + filename + "\n")
+
+error_log.close()
