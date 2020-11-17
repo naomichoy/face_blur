@@ -61,3 +61,5 @@ maybe i should include a file of my environment setup too
 sorry this processing eats your computer resources, because pure CPU sucks at image processing.
 if your boss has a machine that has a nvidia GPU and dlib compiled with CUDA extensions (if he knows what this is he will understand this), the process can be accelerated
 (edit -- i tried running the script with a laptop with a NVIDIA GPU and CUDA configured from previous projects and there's no speed up :( perhaps there's something i need to declare specifically to enable the GPU, otherwise you are gonna stick with the slow speed. better equip yourself with a good enough CPU)
+
+https://www.geeksforgeeks.org/running-python-script-on-gpu/
