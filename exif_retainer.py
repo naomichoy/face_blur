@@ -8,6 +8,7 @@ PROCESSED_DIR = './processed/'
 DIR_PATH = './photos/'
 PROCESSED_FILE = ''
 file_count = 0
+error_log = open("error_log.txt", a)
 
 def locate_and_blur (image, face_locations):
 
@@ -33,8 +34,12 @@ for filename in os.listdir(DIR_PATH):
 		photo_full_path = DIR_PATH + filename
 
 		# load exif data, without piexif lib
-		im = Image.open(photo_full_path)   
-		exif = im.info['exif']
+		im = Image.open(photo_full_path)
+		if exif:  
+			exif = im.info['exif']
+		else: # to file
+			error_log.write(filename + " does not have exif data")
+
 		
 		image = face_recognition.load_image_file(photo_full_path) # Load the jpg file into a numpy array
 		face_locations = face_recognition.face_locations(image, number_of_times_to_upsample=0, model="cnn")
@@ -55,3 +60,5 @@ for filename in os.listdir(DIR_PATH):
 
 	except Exception as e:
 		print (e)
+		# append error to file
+		error_log.write(e)

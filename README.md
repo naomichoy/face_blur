@@ -7,6 +7,8 @@ HI CHING download the zip file, unzip and have fun.
 ## DEPENDENCIES
 Python 3.3+ is need to run the script. Google how to install python 3 on your mac/windows and follow the steps.
 
+You will also need to install Visual Studio before proceeding
+
 check if the following modules are installed. you need these modules to run the script
 * numpy
 * scipy
@@ -27,7 +29,7 @@ pip3 install face_recognition
 In your terminal, nevigate to the directory where you extracted the zip, run this command
 
 ```bash 
-python3 batch_process2.py
+python3 exif_retainer.py
 ```
 
 idk maybe directly click and run the script might work too
