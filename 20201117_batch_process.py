@@ -8,7 +8,7 @@ PROCESSED_DIR = './processed/'
 DIR_PATH = './photos/'
 PROCESSED_FILE = ''
 file_count = 0
-error_log = open("error_log.txt", a)
+error_log = open("error_log.txt", "a")
 
 def locate_and_blur (image, face_locations):
 

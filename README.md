@@ -29,7 +29,7 @@ pip3 install face_recognition
 In your terminal, nevigate to the directory where you extracted the zip, run this command
 
 ```bash 
-python3 exif_retainer.py
+python3 <filename>
 ```
 
 idk maybe directly click and run the script might work too
