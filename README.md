@@ -16,36 +16,40 @@ check if the following modules are installed. you need these modules to run the 
 * cmake (to install face_recognition)
 
 ```bash
-pip3 install numpy scipy opencv-python cmake
+pip install numpy scipy opencv-python cmake
 ```
 
 you will also need to install this module I copied from ageitgey
 
 ```bash 
-pip3 install face_recognition
+pip install face_recognition
+```
+
+If you want to run the GPU version, install these
+
+```bash 
+pip install numba cudatoolkit
 ```
 
 ## Running the script
 In your terminal, nevigate to the directory where you extracted the zip, run this command
 
 ```bash 
-python3 <filename>
+python <filename>
 ```
 
 idk maybe directly click and run the script might work too
 
 ## updates
 
-(verson 0.3 12 Nov 2020)
+(17 Nov 2020) 
+changed file names and added gpu version, not sure if it works :/
 
--- metadata retaining required and added 
-
--- PLEASE IGNORE THE batch_process3.py file, it was coded to replace your original file
-
+(verson 0.3 12 Nov 2020) 
+metadata retaining required and added 
 
 (verson 0.2 10 Aug 2020) 
-
--- uploaded sample photos in corresponding "photos" and "processed" folders. 
+uploaded sample photos in corresponding "photos" and "processed" folders. 
 Delete them before you use the code and put your photos in the photos folder.
 
 
@@ -59,7 +63,8 @@ maybe i should include a file of my environment setup too
 
 ## BRUH THIS IS SO SLOW / MY LAPTOP FROZE!
 sorry this processing eats your computer resources, because pure CPU sucks at image processing.
-if your boss has a machine that has a nvidia GPU and dlib compiled with CUDA extensions (if he knows what this is he will understand this), the process can be accelerated
+if your boss has a machine that has a NVIDIA GPU and dlib compiled with CUDA extensions (if he knows what this is he will understand this), the process can be accelerated
+
 (edit -- i tried running the script with a laptop with a NVIDIA GPU and CUDA configured from previous projects and there's no speed up :( perhaps there's something i need to declare specifically to enable the GPU, otherwise you are gonna stick with the slow speed. better equip yourself with a good enough CPU)
 
 https://www.geeksforgeeks.org/running-python-script-on-gpu/

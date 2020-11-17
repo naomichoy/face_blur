@@ -23,7 +23,7 @@ def locate_and_blur (image, face_locations):
         face_image = image[top:bottom, left:right]
 
         #blur image and save to original
-        image_blur = cv2.GaussianBlur(face_image, (99, 99), 30)
+        image_blur = cv2.GaussianBlur(face_image, (99, 99), 30) # error at this fuction
         image[top:bottom, left:right] = image_blur
 
 # load exif data
